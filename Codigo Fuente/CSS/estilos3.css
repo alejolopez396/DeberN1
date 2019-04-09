@@ -1,0 +1,139 @@
+/*Formatear los margenes selector universal el * */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+
+    position: relative;
+    margin: 20px auto ;
+    width: 1000px;
+    height: 120px;
+ 
+}
+
+nav{
+    position: relative;
+    margin: auto ;
+    width: 1000px;
+    height: 48px;
+
+}
+
+#top{
+    position: relative;
+    margin: 20px auto ;
+    width: 1000px;
+    height: 192px;
+
+}
+
+section{
+    position: relative;
+    margin:  auto ;
+    width: 1000px;
+    height: 453px;
+    background: #aaa;
+}
+
+footer{
+    position: relative;
+    margin:  20px auto ;
+    width: 1000px;
+    height: 70px;
+    background: #888;
+}
+
+/*Absoluta toma punto de eje a la caja que la contiene*/
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 60px;
+
+
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.redes{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: #ccc;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+}
+
+#icono1{
+    top:42px;
+    right: 120px;
+    background: burlywood;
+}
+
+#icono2{
+    top:42px;
+    right: 71px;
+    background: seagreen;
+}
+
+#icono3{
+    top:42px;
+    right: 19px;
+    background: skyblue;
+}
+
+.botones{
+    float: left;
+    width: 196px;
+    height: 48px;
+    background: #333;
+    margin: 0px 2px;
+}
+
+#top ul{
+    width: 1010px;
+    height: 192px;
+}
+
+#top ul li{
+ float: left;
+ width: 326px;
+ height: 192px;
+ background: #333;
+ margin-right: 10px;
+}
+
+aside#izq{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 453px;
+    background: #333;
+    
+}
+
+aside#der{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    height: 453px;
+    background: #333;
+}
+
+article{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 600px;
+    height: 453px;
+    background: #666;
+}

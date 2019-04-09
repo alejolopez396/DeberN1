@@ -1,0 +1,81 @@
+/* comentarios */
+/* primero se debe seleccionar un selector*/
+/*Cambiar el color de fondo de pantalla*/
+body
+{
+    background: white ;
+}
+
+/*Color texto*/
+body{
+    color: aquamarine
+}
+/*Estilos para titulos*/
+h1{
+    color: gold;
+    font-size: 15px;
+}
+
+/*Estilos a los Ids*/
+
+#caja{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+/*Estilos a las clases*/
+.grupo{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 50px;
+}
+/* Color y tamaño del parrafo */
+p{
+    color: black;
+    font-size: 15px;
+
+}
+
+
+/* Color tamaño al enlace */
+a{
+    color:skyblue;
+    font-size: 20px;
+}
+
+/*Elemento que este dentro de otro elemento*/
+p a{
+    color: burlywood;
+    font-size: 30px;
+}
+
+/**Estillo para un enlace con url especifica*/
+
+a[href="https://www.youtube.com/watch?v=9jI-z9QN6g8"]{
+    color:brown;
+    font-size: 60px;
+}
+
+
+/*Para header para dar una separacion padding*/
+
+header{
+    width: 1000px;
+    height: 300px;
+    background: blue;
+    margin: 20px;
+    border:10px solid black;
+    padding: 25px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    border:5px double white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
